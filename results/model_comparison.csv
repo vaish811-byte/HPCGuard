@@ -1,0 +1,5 @@
+Model,Feature_Set,Number_of_Features,Calibration_Alerts,Calibration_Alert_Rate_Percent,Threshold,Notes
+Isolation Forest,Raw HPC,3,8,5.0,0.06137691394609384,Provisional baseline; threshold reported from Colab notebook
+Isolation Forest,Engineered HPC,6,8,5.0,0.058118,Threshold reported from Colab notebook
+PCA,Engineered HPC,6,8,5.0,0.00012191856868122629,3 components; explained variance 0.9999618389759806
+One-Class SVM,Engineered HPC,6,8,5.0,0.05400353753794688,RBF kernel; nu=0.05; gamma=scale
