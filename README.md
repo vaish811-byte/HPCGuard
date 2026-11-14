@@ -21,7 +21,7 @@ The supplied dataset was inspected in Colab: 800 rows, 3 numeric columns, no mis
 6. Set the threshold to the 95th percentile of clean calibration scores.
 7. Save the pipeline, feature order, threshold, and metadata as `models/hpcguard_final.pkl`.
 
-The notebook experiments also explored three derived ratios and PCA / One-Class SVM. See `results/model_comparison.csv`.
+The Colab exploration also evaluated engineered ratios, PCA, and One-Class SVM; the recorded clean-calibration observations are in `results/model_comparison.csv`. The committed notebook currently reproduces the raw-feature Isolation Forest baseline only; it does not rerun all comparison experiments.
 
 ## Reproduce
 ```bash
